@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <title>Photo Editor, oyehamza120</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/fltr.css" rel="stylesheet">
+    <script src="js/fltr-core.js"></script>
+    <script src="js/fltr-gui.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body onload="main()">
+
+    <div class="content-wrapper">
+
+        <header>
+            <div id="logo">
+        <a id="logoa" title="Photo Editor" href="https://oyehamza120.club/photo.html" target="_blank">
+           
+        </a>
+        <p>
+            <a style="text-decoration: none" href="#" target="_blank">
+                Photo Editor
+            </a>
+
+        </p>
+        </header>
+
+        <main class="grid">
+
+            <div class="fltr-add">
+                <div class="row">
+                    <div class="col-8 header">
+                        <h1>Add filter</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div id="add-grayscale" class="item">
+                            Grayscale
+                        </div>
+                        <div id="add-invert" class="item">
+                            Invert
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="add-brightness" class="item">
+                            Brighness
+                        </div>
+                        <div id="add-contrast" class="item">
+                            Contrast
+                        </div>
+                        <div id="add-saturation" class="item">
+                            Saturation
+                        </div>
+                        <div id="add-color-balance" class="item">
+                            Color Balance
+                        </div>
+                        <div id="add-temperature" class="item">
+                            Temperature
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="add-fade" class="item">
+                            Fade
+                        </div>
+                        <div id="add-grain" class="item">
+                            Grain
+                        </div>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Edge fix -->
+            <!-- Edge (surprise!) cannot open canvas.getDataUrl() using window.open(), so we display the image somewhere on the same page with everything else -->
+            <div class="row">
+                <div class="col-12">
+                    <!-- In order for the validation to pass, src must bet set to non-empty string, so... yeah... 1 pixel white image -->
+                    <!-- I could have created the image in JavaScript, but for some reason it didnt't seem like a good workaround to me -->
+                    <img id="edge-result" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Filter result" style="width: 100%;">
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <button type="button" id="download">Download</button>
+        </footer>
+
+    </div>
+
+							<div class="col-md-3 footer-grid">
+								
+								<p>E-mail : <a href="mailto:hamzashabbir288@gmail.com"> contact@oyehamza120.com</a></p>
+								<p>Website : <a href="https://oyehamza120.club/"> oyehamza120</a></p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="copy-section">
+							<p>oyehamza120 &copy; 2020. All rights reserved.</a></p>
+						</div>
+					</div>
+				</div>
+			<!---footer--->
+</body>
+</html>
