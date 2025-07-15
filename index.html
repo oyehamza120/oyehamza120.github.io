@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyboard-shortcuts-preference" content="all">
+    <meta name="hostname" content="dev-oyehamza120.com">
+    <meta name="expected-hostname" content="dev-oyehamza120.com">
+    <meta name="description" content="Welcome to the portfolio of Hamza Shabbir, a professional web developer. Explore my projects, skills, and contact information. Let's build something amazing together!">
+    <meta name="keywords" content="Hamza Shabbir, web developer, Hamza Shabbir, Dev-Oyehamza120, full stack web developer, portfolio, web development projects, frontend developer, backend developer, HTML, CSS, JavaScript, PHP, MySQL, website development, software engineer, programmer, coder,">
+
+
+
+    <meta property="og:site_name" content="Hamza Shabbir - Portfolio">
+    <meta property="og:title" content="Hamza Shabbir">
+    <meta property="og:description" content="Portfolio Website">
+    <meta property="og:image" href="assets/Dev-Oyehamza120.png" />
+
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    <meta property="og:url" content="dev-oyehamza120.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="website icon" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Dev-Oyehamza120" />
+    <meta name="twitter:title" content="Hamza Shabbir" />
+    <meta name="twitter:description" content="Portfolio Website" />
+    <meta name="twitter:image" href="assets/Dev-Oyehamza120.png" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">   
+    
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="https://kit.fontawesome.com/eabac940d1.js" crossorigin="anonymous"></script>
+
+    <title>Hamza Shabbir - Portfolio</title>
+</head>
+
+<body id="body" onload="loader();light();showhome()">
+    <nav id="nav" style="display:none;">
+        <div class="logo">
+            <a href="#home"><h1>Dev-Oyehamza120</h1></a>
+        </div>
+        <button class="bar" onclick="navtoggle()"><i class="fa-solid fa-bars"></i></button>
+        <div class="nav-items" onblur="blur()">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+        <button onclick="dark()" id="dark" class="theme-btn"><img src="icons/night.png" alt=""></button>
+        <button onclick="light()" id="light" class="theme-btn"><img src="icons/sun.png" alt=""></i></i></button></li>
+    </nav>
+    <main id="main" style="display:none;">
+        <section id="home" >
+            <div class="head-container">
+                <div class="heading">
+                    <h1>Hi,</h1>
+                    <h1><span class="hide">Hi,</span> I am <span class="name"> Hamza Shabbir </span></h1>
+                    <h1><span class="multiText"> </span></h1>
+                    <a href="assets/CV Hamza.pdf" download><button class="button">Download CV </button></a>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=100017246142386"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/+923485576120?text=Hi"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/oyehamza120"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/vhoze_com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.snapchat.com/add/oyehamza120"><i
+                            class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://www.linkedin.com/in/oyehamza120/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="explore">
+                    <a href="#about"><i class="fa-solid fa-arrow-down-long"></i></a>
+                </div>
+
+            </div>
+            <div class="picture">
+                <div class="dp">
+                    <img src="assets/HamzaProfile.jpg" alt="" class="hero-image">
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="about" class="reveal">
+            <h1 class="titles">About &nbsp; <span> Me</span> </h1>
+            <div class="about reveal"> 
+                <div class="img-container reveal">
+                    <img src="assets/HamzaProfileRounf.png" alt="Hamza Shabbir's photo">
+                </div>
+                <div class="about-container reveal">
+                    <div class="p-container">
+                        <p>
+                            Hello, I'm <span> Hamza Shabbir</span>, an experienced web developer dedicated to creating
+                            visually appealing and functional websites.
+                            With a wealth of experience using various programming languages and frameworks, I specialize
+                            in
+                            developing user-friendly websites that meet the unique needs of clients and users. <br>
+
+                            Embark on a digital journey with our comprehensive web development services. We specialize in crafting tailored, high-performance websites and applications that resonate with your brand. From responsive designs to robust e-commerce solutions and seamless user experiences, our team brings expertise in diverse technologies to transform your vision into reality. Elevate your online presence with our meticulous attention to detail and commitment to delivering top-notch web solutions. <br>
+
+                            If you're seeking a passionate and innovative web developer for your project, please feel
+                            free to <a href="#contact">contact me.</a> I'd love
+                            to hear from you!
+                        </p>
+
+                    </div>
+                    <div class="btn-container reveal">
+                        <a href="#skills"><Button class="button">Read More</Button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <center>
+            <img src="images/HamzaBanner.png" width="100%">
+            <div class="action-container">
+                <a href="https://www.linkedin.com/in/oyehamza120"><button>Get me on LinkedIn - <i
+                    class="fa-brands fa-linkedin-in"></i></button></a><p>&nbsp;</p>
+                <a href="https://wa.me/+923485576120?text=Hi"><button>Get me on WhatsApp - <i class="fa-brands fa-whatsapp"></i></button></a>
+            </div>
+        </center>
+<br><br><br>
+        <section id="education" class="reveal">
+            <h1 class="titles"><span>My</span> &nbsp Education </h1>
+            <div class="edu-container">
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2019 - 2023</span></p>
+                        <p class="edu-title">Bachelors in Information Technology</p>
+                        <p class="edu-desc">
+                            <a href="https://uog.edu.pk/">
+                                University of Gujrat
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2022</span></p>
+                        <p class="edu-title">Enterprenureship-101 Short Course</p>
+                        <p class="edu-desc">
+                            <a href="https://www.uni-saarland.de/start.html">
+                                Saarland University Germany
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="edu-box reveal">
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2017 - 2019</span></p>
+                        <p class="edu-title">FSc Engneering (Intermediate)</p>
+                        <p class="edu-desc">
+                            <a href="https://theinnovatorssystem.com/">
+                                The Innovators Educational System
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="edu-box reveal" >
+                    <div class="edu-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p></p>
+                    </div>
+                    <div class="edu-details">
+                        <p class="edu-year"><span>2015 - 2017</span></p>
+                        <p class="edu-title">SSc Science (Intermediate)</p>
+                        <p class="edu-desc">
+                            <a href="https://theinnovatorssystem.com/">
+                                The Innovators Educational System
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="reveal">
+
+            <h1 class="titles"> <span>MY</span> &nbsp Skills</h1>
+            <div class="skill-container reveal">
+                <div class="front end reveal">
+
+
+                    <h1>Frontend</h1>
+                    <div class="skills-box" >
+                        <div class="skill">
+                            <img src="skills/react.png" alt="">
+                            <h2>React js</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/html.png" alt="">
+                            <h2>HTML</h2>
+
+                        </div>
+                        <div class="skill">
+                            <img src="skills/css-3.png" alt="">
+                            <h2>CSS</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/js.png" alt="">
+                            <h2>Javascript</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/bootstrap.png" alt="">
+                            <h2>Bootstrap</h2>
+                        </div>
+                        
+
+                       
+                    </div>
+                </div>
+                <div class="back end reveal">
+                    <h1>Backend</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/nodejs.png" alt="">
+                            <h2>Node js</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/mongodb.png" alt="">
+                            <h2>Mongo dB</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/php.png" alt="">
+                            <h2>PHP</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/mysql.png" alt="">
+                            <h2>MySQL</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/express.png" alt="" class="outline">
+                            <h2>Express Js</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="others end reveal">
+
+
+                    <h1 style="height: 95%;" class="pch1">Other</h1>
+                    <h1 class="mobh1">Other</h1>
+                    <div class="skills-box">
+                        <div class="skill">
+                            <img src="skills/c.png" alt="">
+                            <h2>C</h2>
+
+                        </div>
+                        <div class="skill">
+                            <img src="skills/cpp.png" alt="">
+                            <h2>C++</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/java.png" alt="">
+                            <h2>Java</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/terminal.png" alt="">
+                            <h2>Bash Script</h2>
+                        </div>
+                        <div class="skill">
+                            <img src="skills/python.png" alt="">
+                            <h2>Python</h2>
+                        </div>
+
+                      
+                    </div>
+                </div>
+
+
+        </section>
+
+        <section id="projects" class="reveal">
+            <h1 class="titles"> <span>MY</span> &nbsp Projects</h1>
+            <div class="project-container">
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/adored-vintage-shopify-store.png" alt="">
+                    </div>
+                    <h1>Adored Vintage (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://www.adoredvintage.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                 <div class="project reveal" >
+                    <div>
+                        <img src="projects/freelance-marketplace.png" alt="">
+                    </div>
+                    <h1>Vhoze Freelance Marketplace</h1>
+             <p>    <span class="language"> PHP </span>
+                        <span class="language"> BOOTSTRAP </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://vhoze.com"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/lashee-shopify-store.png" alt="">
+                    </div>
+                    <h1>Lashee (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://lashee.nl/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/luna-rose-shopify-store.png" alt="">
+                    </div>
+                    <h1>Luna Rose Beauty (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://lunarose.beauty/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/online-ai-office-tool.png" alt="">
+                    </div>
+                    <h1>AI Based Office Tools</h1>
+                    <p> <span class="language"> PHP </span>
+                        <span class="language"> BOOTSTRAP </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://office.vhoze.com"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/round-image-tool.png" alt="">
+                    </div>
+                    <h1>Round Image Tool</h1>
+                    <p> <span class="language"> HTML </span>
+                        <span class="language"> CSS </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://image-tools.vhoze.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/sari-curls-shopify-store.png" alt="">
+                    </div>
+                    <h1>Sari Curls (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://saricurls.de/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/then-i-met-you-shopify-store.png" alt="">
+                    </div>
+                    <h1>Then I Met You (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://thenimetyou.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/trustfit-customs-shopify-store.png" alt="">
+                    </div>
+                    <h1>Trustfit Customs (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://trufitcustoms.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/uaxel-custom-online-store.png" alt="">
+                    </div>
+                    <h1>UAxel Custom Ecommerce System</h1>
+                    <p> <span class="language"> PHP </span>
+                        <span class="language"> BOOTSTRAP </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://uaxel.co "><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/squat-wedgiez-shopify-store.png" alt="">
+                    </div>
+                    <h1>Squat Wedgiez (Shopify Store)</h1>
+                    <p> <span class="language"> Shopify </span>
+                        <span class="language"> Dev-Oyehamza120 </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://squatwedgiez.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/academy-vhoze.png" alt="">
+                    </div>
+                    <h1>Academy Vhoze (CMS)<h1>
+                        <p> <span class="language"> PHP </span>
+                            <span class="language"> BOOTSTRAP </span>
+                        </p>
+                    <div class="action-container">
+                        <a href="https://academy.vjoze.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/rmk-travels.png" alt="">
+                    </div>
+                    <h1>RMK Travels (CMS)<h1>
+                        <p> <span class="language"> PHP </span>
+                            <span class="language"> BOOTSTRAP </span>
+                        </p>
+                    <div class="action-container">
+                        <a href="https://rmk-travels.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+                <div class="project reveal" >
+                    <div>
+                        <img src="projects/the-innovators-system.png" alt="">
+                    </div>
+                    <h1>The Innovators System (CMS)<h1>
+                        <p> <span class="language"> PHP </span>
+                            <span class="language"> BOOTSTRAP </span>
+                    </p>
+                    <div class="action-container">
+                        <a href="https://theinnovatorssystem.com/"><button>Preview</button></a>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <h1 class="titles"> Contact&nbsp<span>Me</span> </h1>
+            <div class="contact-container reveal">
+                <div class="right-side">
+                    <div class="input-container">
+                        <form action="https://formspree.io/f/xjkbvakj" method="POST">
+                                <input type="text" placeholder="Your name" required name="name" autocomplete="off" class="reveal">
+                                <input type="text" placeholder="Your email" required name="email" autocomplete="off" class="reveal">
+                                <textarea cols="30" rows="10" placeholder="Your message" required name="message" class="reveal"></textarea>
+                                <button type="submit" class="reveal">Send  &nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        
+
+        <footer>
+            <div class="footer-socials">
+                <a href="https://facbook.com/profile.php?id=100017246142386"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/+923485576120?text=Hi"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/oyehamza120"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/vhoze_com"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.snapchat.com/add/oyehamza120"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.linkedin.com/in/oyehamza120"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.threads.net/@oyehamza120"><i class="fa-brands fa-threads"></i></a>
+
+            </div>
+        </footer>
+        
+        <!-- <audio src="assets/Reminder.mp3" autoplay controls> </audio> -->
+
+        <div class="copyright">
+                <div class="center">
+                    <a href="tel:+923485576120" class="reveal" id="no-anim">
+                        <div class="details">
+                        <h1><i class="fa-solid fa-phone"></i>Phone</h1>
+                        <h3>+92(348)557 6120</h3>
+                    </div>
+                </a>
+                <a href="mailto:admin@dev-oyehamza120.com" class="reveal" id="no-anim">
+                    <div class="details">
+                        <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+                        <h3>admin@dev-oyehamza120.com</h3>
+                    </div>
+                </a>
+                <a href="#contact" class="reveal" id="no-anim">
+                    <div class="details">
+                        <h1><i class="fa-solid fa-location-dot"></i>Address</h1>
+                        <h3>Samahni Bhimber 10040, Azad Kashmir, Pakistan</h3>
+                    </div>
+                </a>
+                </div>
+
+        <p>Copyright &copy; <span id="copy"></span> Dev-Oyehamza120</p>
+        <p>&nbsp;</p>
+    </div>
+     </section>
+    </main>
+
+    <!-- -----------------------loading animation----------------- -->
+    <div id="loader">
+    <div class="boxes">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+<!--========================================= Why are you reading this ? ============================================== -->
+
+
+<!-- ===================================== Design and Code by Hamza Shabbir ============================================-->
