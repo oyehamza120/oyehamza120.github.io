@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-YMWDE0VTD3");
+  </script>
+  <meta name="google-site-verification" content="#" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="Hamza Shabbir | Portfolio, Welcome to the portfolio of Hamza Shabbir, a professional web developer. Explore my projects, skills, and contact information. Let's build something amazing together!" />
+  <meta name="keywords"
+    content="Hamza Shabbir,Hamza Shabbir portfolio,Hamza Shabbir Portfolio,vinodjangid,Hamza Shabbir site,Hamza Shabbir Site,Hamza Shabbir me,Hamza Shabbir web,Hamza Shabbir github,vinodjangid site,vinodjangid uiverse,uiverse,Hamza Shabbir uiverse,Hamza Shabbir frontend developer,frontend developer,Hamza Shabbir jaipur,vinod jaipur" />
+  <meta name="author" content="Hamza Shabbir" />
+  <meta property="og:image" content="/src/png/Preview-card-min.png" />
+  <meta property="og:title" content="Hamza Shabbir | Portfolio" />
+  <meta property="og:description"
+    content="Hi! My name is Hamza Shabbir. Welcome to the portfolio of Hamza Shabbir, a professional web developer. Explore my projects, skills, and contact information. Let's build something amazing together!" />
+
+  <meta property="og:url" content="https://dev.oyehamza120.uk" />
+  <meta property="og:site_name" content="Hamza Shabbir Portfolio" />
+
+  <title>Hamza Shabbir | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="Hamza Shabbir logo">
+        <div class="logo-top">
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &#60;/Home&#62;
+          </a>
+        </li>
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &#60;/AboutMe&#62;
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            &#60;/Skills&#62;
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &#60;/Projects&#62;
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">R</p>
+          <p class="jello">u</p>
+          <p class="jello">n</p>
+          <p class="jello">T</p>
+          <p class="jello">i</p>
+          <p class="jello">m</p>
+          <p class="jello">e</p>
+          <p class="jello">(</p>
+          <p class="jello">)</p>
+          <p class="jello">;</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">H</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          <p class="jello">z</p>
+          <p class="jello">a</p>
+          &nbsp;
+          <p class="jello">S</p>
+          <p class="jello">h</p>
+          <p class="jello">a</p>
+          <p class="jello">b</p>
+          <p class="jello">b</p>
+          <p class="jello">i</p>
+          <p class="jello">r</p>
+          <p class="jello">.</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="jello">I</p>
+          </div>
+          <div>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+            <p class="jello">s</p>
+            <p class="jello">i</p>
+            <p class="jello">g</p>
+            <p class="jello">n</p>
+          </div>
+          <div>
+            <p class="jello">&</p>
+          </div>
+          <div>
+            <p class="jello">c</p>
+            <p class="jello">o</p>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+          </div>
+          <div>
+            <p class="jello">f</p>
+            <p class="jello">o</p>
+            <p class="jello">r</p>
+          </div>
+          <div>
+            <p class="jello">w</p>
+            <p class="jello">e</p>
+            <p class="jello">b</p>
+            <p class="jello">.</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Web Developer with experience of Digital Concept Arts, Frontend Web
+          Designs.<br />
+          <br />
+          I value simple content structure, clean design patterns, and
+          thoughtful interactions.<br /><br />- UI / UX Designer <br />- Web Developer <br />- PHP Applications <br />- Web Applications <br />- CMS <br />- Web Software <br />and many more...
+        </p>
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="/CV_Hamza_Shabbir.pdf" tabindex="-1">
+            <button class="letsTalkBtn">
+              <p class="letsTalkBtn-text">Download CV</p>
+              <span class="letsTalkBtn-BG"></span>
+            </button></a>
+          <div class="setting-container" id="setting-container">
+            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+
+            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+              aria-label="settings for sound and appearance"></label>
+
+            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                aria-label="switch appearance"></label>
+            </div>
+
+            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+              <input type="checkbox" id="switchforsound" onclick="playpause()" />
+              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                class="needtobeinvert"></label>
+            </div>
+          </div>
+          <!-- setting div ends -->
+        </div>
+        <!-- contact-btn-div -->
+      </div>
+     
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/AboutMe&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              Hello, I'm Hamza Shabbir, an experienced web developer dedicated to creating visually appealing and functional websites. With a wealth of experience using various programming languages and frameworks, I specialize in developing user-friendly websites that meet the unique needs of clients and users.
+            </p>
+            <br />
+            <p tabindex="0">
+              Embark on a digital journey with our comprehensive web development services. We specialize in crafting tailored, high-performance websites and applications that resonate with your brand. From responsive designs to robust e-commerce solutions and seamless user experiences, our team brings expertise in diverse technologies to transform your vision into reality. Elevate your online presence with our meticulous attention to detail and commitment to delivering top-notch web solutions.
+            </p>
+            <br />
+            <p tabindex="0">
+              If you're seeking a passionate and innovative web developer for your project, please feel free to contact me. I'd love to hear from you!
+            </p>
+          </div>
+          <div class="dp" data-aos="fade-up">
+            <img src="DevHamzaProfile.png" alt="Hamza Shabbir" tabindex="0" aria-label="image of vinod" />
+          </div>
+        </div>
+        <br />
+        <b>Education</b>
+            <figure class="table">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">2025 - 2026</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        Masters in Computer Science
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://aru.ac.uk/">Anglia Ruskin University</a>
+                    </p>
+                </td>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">2019 - 2023</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        Bachelors in Information Technology
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://uog.edu.pk/">University of Gujrat</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">2017 - 2019</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        FSc Engneering (Intermediate)
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://theinnovatorssystem.com/">The Innovators Educational System</a>
+                    </p>
+                </td>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">2015 - 2017</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        SSc Science (Intermediate)
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://theinnovatorssystem.com/">The Innovators Educational System</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure><b />
+<b>Certificates</b>
+<figure class="table">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">Coursera - Google</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        Foundation of Cybersecurity
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://coursera.org/verify/BG7TI20W3FF1">Verify</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">Coursera - Google</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        Foundation of Digital Marketing and E-commerce
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://coursera.org/verify/ZYT18YQLDYA4">Verify</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="edu-year" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <span style="background-color:rgba(141,139,139,0.46);font-family:poppins, Arial;"><span style="border-radius:10px;box-sizing:border-box;margin:0px;padding:0px 10px;">Coursera - Google</span></span>
+                    </p>
+                    <p class="edu-title" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:1.3rem;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:500;letter-spacing:normal;margin:0px;opacity:0.8;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        Attract and Engage Customer with Digital Marketing
+                    </p>
+                    <p class="edu-desc" style="-webkit-text-stroke-width:0px;background-color:rgb(251, 251, 253);box-sizing:border-box;color:rgb(4, 12, 14);font-family:poppins, Arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+                        <a style="box-sizing:border-box;color:gray;font-family:poppins, Arial;font-weight:500;letter-spacing:0px;margin:0px;padding:0px;text-decoration:none;" target="_blank" rel="noopener noreferrer" href="https://coursera.org/verify/079SX1E7F94A">Verify</a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            &#60;/Skills&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="As a frontend a developer these are the skills i have">
+            Tech Stack
+          </h3>
+          <ul class="tech-stack-wrapper">
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
+              <span class="tooltip">HTML</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
+              <span class="tooltip">CSS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">JS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/laravel.png" alt="tailwind skill" class="tech-stack-logo" />
+              <span class="tooltip">Laravel</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/php.png" alt="react skill" class="tech-stack-logo" />
+              <span class="tooltip">PHP</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/nextlogo.png" alt="nextjs skill" class="tech-stack-logo" />
+              <span class="tooltip">NEXTJS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/node.png" alt="nodejs skill" class="tech-stack-logo" />
+              <span class="tooltip">NODEJS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/astro.png" alt="astro skill" class="tech-stack-logo" />
+              <span class="tooltip">ASTRO</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">GITHUB</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/gitlogo.png" alt="git skill" class="tech-stack-logo" />
+              <span class="tooltip">GIT</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/tinacms.png" alt="tinacms skill" class="tech-stack-logo" />
+              <span class="tooltip">TINACMS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/contentfulcms.png" alt="contentful skill" class="tech-stack-logo" />
+              <span class="tooltip">CONTENTFUL</span>
+            </li>
+
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/clogo.png" alt="c language skill" class="tech-stack-logo" />
+              <span class="tooltip">C</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/cpplogo.png" alt="c++ language skill" class="tech-stack-logo" />
+              <span class="tooltip">C++</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/pslogo.png" alt="photoshop skill" class="tech-stack-logo" />
+              <span class="tooltip">ADOBE PS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/figmalogo.png" alt="figma skill" class="tech-stack-logo" />
+              <span class="tooltip">FIGMA</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/ailogo.png" alt="adobe illustrator skill" class="tech-stack-logo" />
+              <span class="tooltip">ADOBE AI</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            &#60;/Projects&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="atomic asher website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Atomic Asher Official Website</article>
+                <p class="ProjectDescription">
+                  Atomic Asher: A sleek and modern company website built to reflect their mission, team, and work through a clean and professional digital presence.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://atomicasher.com" target="_blank" class="cta"
+                    aria-label="Visit atomicasher Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/asher-preview.webp" alt="atomicasher website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="stopscams website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">StopScams.in</article>
+                <p class="ProjectDescription">
+                  StopScams: An AI-powered platform that detects scam messages and supports users through digital fraud with smart tools and real-time help.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://stopscams.in" target="_blank" class="cta"
+                    aria-label="Visit stopscams Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/stopscams-preview.webp" alt="stopscams website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="notesync website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">NoteSync</article>
+                <p class="ProjectDescription">
+                  Notesync: A note-taking app powered by Supabase, designed to sync and store your notes instantly with a smooth and minimal user interface.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/vinodjangid07/notesync-supabase" target="_blank" class="github-redirect"
+                    aria-label="Visit Pexelicons on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://notesync-site.netlify.app/" target="_blank" class="cta"
+                    aria-label="Visit NoteSync Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/notesync-preview.webp" alt="NoteSync website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="withyourdog website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">With Your Dog</article>
+                <p class="ProjectDescription">
+                  WithYour.Dog: Discover dog-friendly places near you with our simple Airtable-powered app, integrated with Ola Maps for seamless navigation.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://withyour.dog" target="_blank" class="cta"
+                    aria-label="Visit withyourdog Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/wyd-preview.webp" alt="withyourdog website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="pexelicon website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Pexelicons</article>
+                <p class="ProjectDescription">
+                  Pexelicons: A world of personalized file folder icons to
+                  transform your PC into a reflection of your style.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/vinodjangid07/Pexelicons" target="_blank" class="github-redirect"
+                    aria-label="Visit Pexelicons on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://vinodjangid07.github.io/Pexelicons/" target="_blank" class="cta"
+                    aria-label="Visit Pexelicons Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/Group 76.webp" alt="Pexelicon website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- --------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/favicon.png" alt="lunetra website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Lunetra Studio</article>
+                <p class="ProjectDescription">
+                  Lunetra Studio: A fashion-forward site showcasing elegant collections with modern design, built to highlight quality, story, and craftsmanship.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://lunetra-studio.netlify.app/" target="_blank" class="cta"
+                    aria-label="Visit lunetra Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/lunetra-preview.webp" alt="Lunetra website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- --------------------- -->
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- main ends here -->
+
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "You want some magic then contact me"
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>RunTimeError();</article>
+          </div>
+          <div class="logos">
+            <a href="https://www.instagram.com/oyehamza120" target="_blank" tabindex="0"
+              aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg></a>
+
+            <a href="https://uk.linkedin.com/in/oyehamza120" target="_blank"
+              aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg></a>
+
+            <a href="mailto:hamzashabbir288@gmail.com" target="_blank" aria-label="My Gmail"><svg id="GmailLogo"
+                viewBox="0 0 512 512">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img src="src/png/footer-avatar-vinod.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <div class="footer-avatar-face">
+            <div class="footer-avatar-eye footer-left-eye">
+              <div class="footer-pupil"></div>
+            </div>
+            <div class="footer-avatar-eye footer-right-eye">
+              <div class="footer-pupil"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+          Copyright © 2025 Dev-Oyehamza120
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    function openURL() {
+      var url = "src/pdf/Vinod's Resume.pdf";
+
+      window.open(url, "_blank");
+    }
+  </script>
+
+  <script>
+    const cursorInner = document.getElementById("cursor-inner");
+    const cursorOuter = document.getElementById("cursor-outer");
+    const links = document.querySelectorAll("a,label,button");
+
+    document.addEventListener("mousemove", function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorInner.style.left = `${posX}px`;
+      cursorInner.style.top = `${posY}px`;
+
+      // cursorOuter.style.left = `${posX}px`;
+      // cursorOuter.style.top = `${posY}px`;
+
+      cursorOuter.animate(
+        {
+          left: `${posX}px`,
+          top: `${posY}px`,
+        },
+        { duration: 500, fill: "forwards" }
+      );
+
+      links.forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+          cursorInner.classList.add("hover");
+          cursorOuter.classList.add("hover");
+        });
+        link.addEventListener("mouseleave", () => {
+          cursorInner.classList.remove("hover");
+          cursorOuter.classList.remove("hover");
+        });
+      });
+    });
+  </script>
+ <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('vinodjangid07', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#794bc4',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</body>
+
+</html>
